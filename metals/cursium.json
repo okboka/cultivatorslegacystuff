@@ -1,0 +1,190 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "cataclysm:cursium_ingot"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "cataclysm:cursium_ingot"
+      }
+    }
+  },
+  "display": {
+    "color": "#1abaf0",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.silentgear.cursium_ingot"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 18.0,
+      "armor/boots": 3.0,
+      "armor/chestplate": 6.0,
+      "armor/helmet": 3.0,
+      "armor/leggings": 5.0,
+      "armor_durability": 20.0,
+      "attack_damage": 8.0,
+      "attack_speed": 1.0,
+      "charging_value": 1.4,
+      "draw_speed": 3.0,
+      "durability": 197.0,
+      "enchantment_value": 29.0,
+      "harvest_speed": 24.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_tyrian_steel_tools",
+        "level_hint": "4",
+        "name": "tyrian_steel"
+      },
+      "magic_armor": 24.0,
+      "magic_damage": 7.0,
+      "projectile_accuracy": 1.4,
+      "projectile_speed": 2.3,
+      "ranged_damage": 3.0,
+      "rarity": 83.0,
+      "repair_value": 0.5,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:ancient"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:soft"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:jabberwocky"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:cursed"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.3
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:bending"
+        },
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:ancient"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:cursed"
+        }
+      ]
+    },
+    "silentgear:tip": {
+      "armor_durability": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.2
+      },
+      "durability": {
+        "operation": "ADD",
+        "value": 83.0
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_tyrian_steel_tools",
+        "level_hint": "4",
+        "name": "tyrian_steel"
+      },
+      "magic_damage": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "rarity": {
+        "operation": "ADD",
+        "value": 31.0
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:malleable"
+        },
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:ancient"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:cursed"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 1.1
+      },
+      "magic_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.8
+      },
+      "durability": [
+        {
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.3
+        },
+        {
+          "operation": "ADD",
+          "value": 2.0
+        }
+      ],
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 7.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 1,
+          "trait": "silentgear:light"
+        }
+      ]
+    }
+  }
+}
