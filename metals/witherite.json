@@ -33,6 +33,7 @@
       "armor/helmet": 6.0,
       "armor/leggings": 5.0,
       "armor_durability": 67.0,
+      "armor_toughness": 7.0,
       "attack_damage": 1.0,
       "attack_speed": 4.0,
       "charging_value": 1.4,
@@ -62,11 +63,6 @@
           "conditions": [],
           "level": 1,
           "trait": "silentgear:magnetic"
-        },
-        {
-          "conditions": [],
-          "level": 5,
-          "trait": "silentgear:synergistic"
         }
       ]
     },

@@ -33,9 +33,10 @@
       "armor/helmet": 4.0,
       "armor/leggings": 8.0,
       "armor_durability": 54.0,
+      "armor_toughness": 6.0,
       "attack_damage": 10.0,
       "attack_speed": 0.0,
-      "charging_value": 0.4,
+      "charging_value": 0.5,
       "draw_speed": 1.0,
       "durability": 3500.0,
       "enchantment_value": 29.0,
@@ -135,11 +136,6 @@
           "conditions": [],
           "level": 2,
           "trait": "silentgear:fiery"
-        },
-        {
-          "conditions": [],
-          "level": 2,
-          "trait": "silentgear:cursed"
         }
       ]
     },
