@@ -1,0 +1,79 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty", 
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "rock",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "cataclysm:void_lantern_block"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#ed2405",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.silentgear.void_lantern_block"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 50.0,
+      "armor/boots": 10.0,
+      "armor/chestplate": 15.0,
+      "armor/helmet": 10.0,
+      "armor/leggings": 15.0,
+      "armor_durability": 540.0,
+      "attack_damage": 1.0,
+      "attack_speed": 0.0,
+      "charging_value": 0.04,
+      "draw_speed": 1.0,
+      "durability": 35000.0,
+      "enchantment_value": 29.0,
+      "harvest_speed": 4.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_tyrian_steel_tools",
+        "level_hint": "4",
+        "name": "tyrian_steel"
+      },
+      "magic_armor": 40.0,
+      "magic_damage": 20.0,
+      "projectile_accuracy": 0.1,
+      "projectile_speed": 0.1,
+      "ranged_damage": 0.035,
+      "rarity": 100.0,
+      "repair_value": 0.025,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:adamant"
+        },
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:aquatic"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },{
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:crushing"
+        },
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:bastion"
+        }
+      ]
+    }
+  }
+}

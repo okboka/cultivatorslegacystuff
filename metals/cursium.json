@@ -36,7 +36,7 @@
       "armor_toughness": 4.0,
       "attack_damage": 4.0,
       "attack_speed": 1.0,
-      "charging_value": 1.4,
+      "charging_value": 4.0,
       "draw_speed": 3.0,
       "durability": 197.0,
       "enchantment_value": 29.0,
@@ -62,7 +62,7 @@
         {
           "conditions": [],
           "level": 2,
-          "trait": "silentgear:soft"
+          "trait": "silentgear:crude"
         },
         {
           "conditions": [],
