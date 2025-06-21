@@ -1,0 +1,146 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "metal",
+      "endgame"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "tag": "cataclysm:ancient_metal_ingot"
+    },
+    "part_substitutes": {
+      "silentgear:rod": {
+        "tag": "cataclysm:ancient_metal_ingot"
+      }
+    }
+  },
+  "display": {
+    "color": "#b88011",
+    "main_texture_type": "HIGH_CONTRAST",
+    "name": {
+      "translate": "material.silentgear.ancient_metal_ingot"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:main": {
+      "armor": 22.0,
+      "armor/boots": 7.0,
+      "armor/chestplate": 7.0,
+      "armor/helmet": 6.0,
+      "armor/leggings": 2.0,
+      "armor_durability": 54.0,
+      "armor_toughness": 6.0,
+      "attack_damage": 7.0,
+      "attack_speed": 0.0,
+      "charging_value": 1.2,
+      "draw_speed": 1.0,
+      "durability": 3500.0,
+      "enchantment_value": 29.0,
+      "harvest_speed": 42.0,
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "silentgear:incorrect_for_tyrian_steel_tools",
+        "level_hint": "4",
+        "name": "tyrian_steel"
+      },
+      "magic_armor": 7.0,
+      "magic_damage": 3.0,
+      "projectile_accuracy": 0.1,
+      "projectile_speed": 0.01,
+      "ranged_damage": 1.0,
+      "rarity": 100.0,
+      "repair_value": 0.25,
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:brittle"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:eroded"
+        },
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:cursed"
+        }
+      ]
+    },
+    "silentgear:rod": {
+      "durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.3
+      },
+      "harvest_speed": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "attack_damage": {
+        "operation":"MULTIPLY_TOTAL",
+        "value":0.5
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:bending"
+        }
+      ]
+    },
+    "silentgear:coating": {
+      "armor_durability": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": -0.3
+      },
+      "armor_toughness": {
+        "operation": "ADD",
+        "value": 2.0
+      },
+      "attack_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.8
+      },
+      "durability": [
+        {
+          "operation": "MULTIPLY_TOTAL",
+          "value": 0.2
+        },
+        {
+          "operation": "ADD",
+          "value": 3.0
+        }
+      ],
+      "enchantment_value": {
+        "operation": "ADD",
+        "value": 6.0
+      },
+      "harvest_tier": {
+        "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
+        "level_hint": "4",
+        "name": "netherite"
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:sturdy"
+        },
+        {
+          "conditions": [],
+          "level": 5,
+          "trait": "silentgear:venom"
+        }
+      ]
+    }
+  }
+}
