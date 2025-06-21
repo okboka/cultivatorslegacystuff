@@ -56,62 +56,58 @@
       "traits": [
         {
           "conditions": [],
-          "level": 2,
-          "trait": "silentgear:fiery"
+          "level": 1,
+          "trait": "silentgear:void_ward"
         },
         {
           "conditions": [],
           "level": 1,
-          "trait": "silentgear:flame_ward"
+          "trait": "silentgear:lustrous"
         },
         {
           "conditions": [],
           "level": 1,
-          "trait": "silentgear:magmatic"
+          "trait": "silentgear:malleable"
         },
         {
           "conditions": [],
           "level": 2,
-          "trait": "silentgear:cursed"
+          "trait": "silentgear:moonwalker"
         }
       ]
     },
     "silentgear:rod": {
       "durability": {
         "operation": "MULTIPLY_TOTAL",
-        "value": -0.3
+        "value": 0.3
+      },
+      "attack_damage": {
+        "operation": "MULTIPLY_TOTAL",
+        "value": 0.3
       },
       "harvest_speed": {
         "operation": "ADD",
-        "value": 3.0
+        "value": 4.0
       },
       "traits": [
         {
           "conditions": [],
-          "level": 2,
-          "trait": "silentgear:bending"
+          "level": 5,
+          "trait": "silentgear:reach"
         },
         {
           "conditions": [],
-          "level": 1,
-          "trait": "silentgear:magmatic"
+          "level": 3,
+          "trait": "silentgear:lustrous"
         },
         {
           "conditions": [],
           "level": 2,
-          "trait": "silentgear:fiery"
+          "trait": "silentgear:malleable"
         }
       ]
     },
     "silentgear:tip": {
-      "armor_durability": {
-        "operation": "MULTIPLY_TOTAL",
-        "value": 2.0
-      },
-      "durability": {
-        "operation": "ADD",
-        "value": 803.0
-      },
       "harvest_tier": {
         "incorrect_blocks_for_tool": "silentgear:incorrect_for_tyrian_steel_tools",
         "level_hint": "4",
@@ -124,38 +120,42 @@
       "traits": [
         {
           "conditions": [],
-          "level": 2,
-          "trait": "silentgear:malleable"
-        },
-        {
-          "conditions": [],
-          "level": 1,
-          "trait": "silentgear:magmatic"
+          "level": 3,
+          "trait": "silentgear:refractive"
         },
         {
           "conditions": [],
           "level": 2,
-          "trait": "silentgear:fiery"
+          "trait": "silentgear:reach"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:lustrous"
         }
       ]
     },
     "silentgear:coating": {
-      "armor_durability": {
+      "magic_armor": {
         "operation": "MULTIPLY_TOTAL",
-        "value": 1.1
+        "value": 1.2
       },
       "armor_toughness": {
         "operation": "ADD",
-        "value": 3.0
+        "value": 1.0
       },
       "attack_damage": {
+        "operation": "ADD",
+        "value": 3.0
+      },
+      "attack_speed": {
         "operation": "MULTIPLY_TOTAL",
-        "value": 0.8
+        "value": 0.4
       },
       "durability": [
         {
           "operation": "MULTIPLY_TOTAL",
-          "value": 0.3
+          "value": 0.4
         },
         {
           "operation": "ADD",
@@ -164,7 +164,7 @@
       ],
       "enchantment_value": {
         "operation": "ADD",
-        "value": 5.0
+        "value": 7.0
       },
       "harvest_tier": {
         "incorrect_blocks_for_tool": "minecraft:incorrect_for_netherite_tool",
@@ -175,7 +175,7 @@
         {
           "conditions": [],
           "level": 1,
-          "trait": "silentgear:fireproof"
+          "trait": "silentgear:stellar"
         }
       ]
     }

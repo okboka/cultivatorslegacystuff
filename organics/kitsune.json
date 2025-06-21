@@ -1,0 +1,92 @@
+{
+  "type": "silentgear:simple",
+  "parent": "silentgear:empty",
+  "crafting": {
+    "can_salvage": true,
+    "categories": [
+      "organic",
+      "cloth",
+      "advanced"
+    ],
+    "gear_type_blacklist": [],
+    "ingredient": {
+      "item": "samurai_dynasty:kitsune_hide"
+    },
+    "part_substitutes": {}
+  },
+  "display": {
+    "color": "#d6d0d0",
+    "main_texture_type": "LOW_CONTRAST",
+    "name": {
+      "translate": "material.silentgear.kitsune_hide"
+    },
+    "name_prefix": ""
+  },
+  "properties": {
+    "silentgear:grip": {
+      "attack_speed": {
+        "operation": "ADD",
+        "value": 0.4
+      },
+      "attack_damage": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.4
+      },
+      "harvest_speed": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.1
+      },
+      "repair_efficiency": {
+        "operation": "MULTIPLY_BASE",
+        "value": 0.15
+      },
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:reach"
+        }
+      ]
+    },
+    "silentgear:lining": {
+      "traits": [
+        {
+          "conditions": [],
+          "level": 2,
+          "trait": "silentgear:light"
+        },
+        {
+          "conditions": [],
+          "level": 3,
+          "trait": "silentgear:flexible"
+        }
+      ]
+    },
+    "silentgear:main": {
+      "armor": 6.0,
+      "armor/boots": 1.0,
+      "armor/chestplate": 2.0,
+      "armor/helmet": 1.0,
+      "armor/leggings": 2.0,
+      "armor_durability": 12.0,
+      "armor_durability/elytra": 17.0,
+      "charging_value": 0.8,
+      "durability": 0.0,
+      "enchantment_value": 10.0,
+      "magic_armor": 8.0,
+      "rarity": 35.0,
+      "traits": [
+        {
+          "conditions": [
+            {
+              "type": "silentgear:material_ratio",
+              "ratio": 0.5
+            }
+          ],
+          "level": 2,
+          "trait": "silentgear:renew"
+        }
+      ]
+    }
+  }
+}
